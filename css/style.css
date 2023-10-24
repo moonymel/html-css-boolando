@@ -24,15 +24,50 @@ body {
     width: calc(100% / 3 - 10px);
 }
 
+.center {
+    text-align:center;
+}
+
+.right {
+    text-align:right;
+}
+
+.small {
+    width:10px;
+    padding:0px 20px;
+}
+
 /* HEADER */
 header {
-    background-color: orange;
-    height:80px;
+    background-color: rgb(247, 111, 0);
+    color:white;
+    position:fixed;
+    width:100%;
+    z-index:2;
+}
+
+header .row {
+    align-items:center;
+    height:50px;
+}
+header ul {
+    list-style-type: none;
+    font-size:12px;
+    font-weight: bold;
+}
+
+header li {
+    display:inline;
+    padding:0px 10px;
+}
+
+header img {
+    width:100px;
 }
 
 /* MAIN */
-main .row {
-
+main {
+    padding:100px 0px;
 }
 
 main .content {
